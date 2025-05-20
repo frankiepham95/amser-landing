@@ -27,8 +27,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="flex-1 flex flex-col md:flex-row items-center justify-center gap-10 px-4 md:px-16 py-12 md:py-24 bg-white">
         <div className="max-w-xl text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-            <span className="whitespace-nowrap">Payment on Behalf Service</span> for Modern Businesses
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
+            <span className="whitespace-normal">Payment on Behalf Service</span> for Modern Businesses
           </h1>
           <p className="text-lg md:text-xl mb-8 text-gray-700">
             AMSER is your trusted payment gateway, simplifying transactions and empowering your business to focus on what matters most.
@@ -125,7 +125,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full py-6 px-4 md:px-16 text-center text-gray-500 text-sm bg-white border-t border-gray-100 mt-auto">
-        &copy; {new Date().getFullYear()} AMSER. All rights reserved.
+        <div>AM SERVICES CO., LTD</div>
+        <div>&copy; {new Date().getFullYear()} AMSER. All rights reserved.</div>
       </footer>
     </div>
   );
