@@ -6,8 +6,15 @@ export default function Home() {
       {/* Header */}
       <header className="w-full flex justify-between items-center py-6 px-4 md:px-16 border-b border-gray-100">
         <div className="flex items-center gap-2">
-          {/* Placeholder logo */}
-          <div className="w-10 h-10 rounded-full bg-[#97EF86] flex items-center justify-center font-bold text-lg">A</div>
+          <div className="w-10 h-10 relative">
+            <Image
+              src="/amser-logo-new.svg"
+              alt="AMSER Logo"
+              fill
+              priority
+              className="object-contain"
+            />
+          </div>
           <span className="text-2xl font-bold tracking-tight">AMSER</span>
         </div>
         <nav className="hidden md:flex gap-8 text-base font-medium">
